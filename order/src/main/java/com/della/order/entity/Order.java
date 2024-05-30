@@ -14,9 +14,9 @@ import jakarta.persistence.Table;
  */
 
 @Entity
-@Table(name="dborder")
+@Table(name="t_order")
 public class Order {
-        @Id
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Long produkId;
